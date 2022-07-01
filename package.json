@@ -1,0 +1,18 @@
+{
+    "name": "rtg_repl",
+    "version": "1.0.0",
+    "description": "Rooms To Go Engineering - Take Home Assignment",
+    "main": "repl.js",
+    "scripts": {
+        "test_errorhandling": "TESTFILE=error_handling.txt node repl.js",
+        "test_examplesession": "TESTFILE=example_session.txt node repl.js",
+        "test_custom": "TESTFILE=custom.txt node repl.js",
+        "start": "node repl.js"
+    },
+    "author": "Grantham, Daniel",
+    "license": "ISC",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "engineStrict": true
+}
